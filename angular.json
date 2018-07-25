@@ -54,7 +54,8 @@
           },
           "configurations": {
             "production": {
-              "browserTarget": "TravelAgency:build:production"
+              "browserTarget": "TravelAgency:build:production",
+              "port": 5200
             }
           }
         },
@@ -62,6 +63,7 @@
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
             "browserTarget": "TravelAgency:build"
+            
           }
         },
         "test": {

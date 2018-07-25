@@ -1,0 +1,2 @@
+export interface Weekendtrip {
+}

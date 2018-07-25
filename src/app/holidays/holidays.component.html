@@ -1,0 +1,17 @@
+<p>
+  holidays works!
+</p>
+
+<h4>Trip Details</h4>
+<table>
+  
+  <tr *ngFor='let eachTrip of weekEndTripList'>
+    <td>{{eachTrip.src}}</td>
+    <td>{{eachTrip.destination}}</td>
+    <td>{{eachTrip.fare}}</td>
+  </tr>
+</table>
+
+ng g weekendtrip
+ng g c holidays
+ng g i weekendtrip
